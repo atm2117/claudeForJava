@@ -21,6 +21,7 @@ Check software version:
   Install gh command
     winget install --id GitHub.cli
   gh auth login
+  javac HelloWorld.java;
 
 VS Code Extension:
   Java:
@@ -43,4 +44,25 @@ Install Claude:
   To exit the terminal, type: exit.
   Extension: 
     claude code for vs code
+
+Claude in Action:
+  Download the resource.
+  The prompt will come from the file: ECom_Prompt_Handbook.pdf
+  Open a new session in the claude VS code extension.
+  Double click on the OUT to view the full output.
+  We can switch the mode: Manual, Auto, Plan.
+  We can add a file to the prompt for more context.
+  Context are saved by session.
+  Claude code comes with different slash commands.
+  We can switch the model based on the task.
+  profile icon → Settings → Usage
+
+  Prompts: 
+    List the tools you have access to, tell me your current model, and read this directory and tell me what you see.
+    Create HelloWorld.java that prints a welcome message, then compile and run it.
+    Create FizzBuzz.java that prints 1 to 30 with Fizz, Buzz, and FizzBuzz, then run it.
+    Plan a PrimeNumbers.java that prints all primes up to 100 using the Sieve of Eratosthenes. Ultrathink about the most efficient approach.
+    Create Fibonacci.java that prints the first 15 Fibonacci numbers, then run it.
+
+Scopes:
     
