@@ -1,9 +1,12 @@
 Repo: claudeForJava
 MCP: Model Context Protocol
+claude
 Software: VS Code
 Claude pro Account is recommended. Monthly/ Annual subscriptions.
 Repo location: ~/OneDrive/Documents/projects/claudeAI
 Plan Mode: It will ask for permission prior to implementing.
+https://jpmc.udemy.com/
+https://jpmc.udemy.com/
 
 What is Claude Code?
   An AI coding agent from Anthropic - it acts, it doesn't just chat.
@@ -19,8 +22,25 @@ Check software version:
     winget install --id GitHub.cli
   gh auth login
 
-  VS Code Extension:
+VS Code Extension:
+  Java:
     Language Support for Java
     Extension pack for Java
-    Debbuger for Java
+    Debugger for Java
+    Test Runner for Java
+    Project Manager for Java
+    Maven for Java
+  Spring:
+    Spring Initializr Java Support
+    Spring Boot Dashboard
+    Spring Boot Tools
+
+Install Claude:
+  Google: Claude code terminal Install
+  winget install Anthropic.ClaudeCode
+  Launch Claude: claude
+  Pick a theme mode and login to your account.
+  To exit the terminal, type: exit.
+  Extension: 
+    claude code for vs code
     
