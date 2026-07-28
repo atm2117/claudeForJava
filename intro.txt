@@ -1,0 +1,26 @@
+Repo: claudeForJava
+MCP: Model Context Protocol
+Software: VS Code
+Claude pro Account is recommended. Monthly/ Annual subscriptions.
+Repo location: ~/OneDrive/Documents/projects/claudeAI
+Plan Mode: It will ask for permission prior to implementing.
+
+What is Claude Code?
+  An AI coding agent from Anthropic - it acts, it doesn't just chat.
+
+Check software version:
+  javac --version
+  java --version
+  mvn --version
+    https://maven.apache.org/download.cgi#CurrentMaven
+    Add maven to the environment variables check google.
+  git --version
+  Install gh command
+    winget install --id GitHub.cli
+  gh auth login
+
+  VS Code Extension:
+    Language Support for Java
+    Extension pack for Java
+    Debbuger for Java
+    
