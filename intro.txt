@@ -65,4 +65,9 @@ Claude in Action:
     Create Fibonacci.java that prints the first 15 Fibonacci numbers, then run it.
 
 Scopes:
-    
+  Where configuration Lives  
+  3 Scopes: Local, Project and User.
+  Local (Me): This project will live only on our machine, not committed. It is the default option.
+  Project (Team): This project will be committed to the repo. Everyone who clones it gets it.
+  User (User): Every project on your machine.
+  Check the '.claude' folder to get more details. Claude.md and settings.json should be the files to check.
