@@ -12,3 +12,6 @@ Create the project using Spring Initializr:
   SQL:
     From the downloaded resources, copy the schema.sql and added into a new 'db' folder under your project.
     Download MySQL workbench
+    Download MySQL Server
+    Copy the content of schema.sql into MySQL workbench and execute it.
+
