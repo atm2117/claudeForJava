@@ -5,3 +5,9 @@ E-commerce project:
   The frontend will be built using NextJS.
 
 Create the project using Spring Initializr:
+  groupId: com.arnold.ecommerce
+  artifactId: ecommerce-api
+  packaging type: jar.
+  springboot dependency: Spring web, Spring Data JPA, MySQL Driver SQL , Validation I/O, Spring Boot Actuator and lombok
+  SQL:
+    From the downloaded resources, copy the schema.sql and added into a new 'db' folder under your project.
