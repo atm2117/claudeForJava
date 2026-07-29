@@ -1,0 +1,7 @@
+E-commerce project:
+  Browse through a List of product.
+  Being able to add a product with a price.
+  The backend will be a springboot restful api.
+  The frontend will be built using NextJS.
+
+Create the project using Spring Initializr:
