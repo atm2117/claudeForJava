@@ -10,8 +10,16 @@ Create the project using Spring Initializr:
   packaging type: jar.
   springboot dependency: Spring web, Spring Data JPA, MySQL Driver SQL , Validation I/O, Spring Boot Actuator and lombok
   SQL:
-    From the downloaded resources, copy the schema.sql and added into a new 'db' folder under your project.
+    From the downloaded resources (C:\Users\arnol\Downloads\resources.zip\resources\project).
+    Copy the schema.sql and added into a new 'db' folder under your project.
     Download MySQL workbench
     Download MySQL Server
     Copy the content of schema.sql into MySQL workbench and execute it.
+
+Provide Context through CLAUDE.md and Rules:
+  From the downloaded resources (C:\Users\arnol\Downloads\resources.zip\resources\global).
+  Copy the CLAUDE.md
+  Navigate to the .claude folder under my user folder (C:\Users\arnol).
+  Paste the CLAUDE.md at this location and open it in our text editor.
+  The md file contains instruction and constraints for specific section. Sections are identified by ##.
 
