@@ -18,8 +18,12 @@ Create the project using Spring Initializr:
 
 Provide Context through CLAUDE.md and Rules:
   From the downloaded resources (C:\Users\arnol\Downloads\resources.zip\resources\global).
-  Copy the CLAUDE.md
-  Navigate to the .claude folder under my user folder (C:\Users\arnol).
-  Paste the CLAUDE.md at this location and open it in our text editor.
-  The md file contains instruction and constraints for specific section. Sections are identified by ##.
+    Copy the CLAUDE.md
+    Navigate to the .claude folder under my user folder (C:\Users\arnol).
+    Paste the CLAUDE.md at this location and open it in our text editor.
+    The md file contains instruction and constraints for specific section. Sections are identified by ##.
+  From the downloaded resources (C:\Users\arnol\Downloads\resources.zip\resources\project).
+    Copy the CLAUDE.md
+    In VS code, at the project level, create a folder named '.claude' and paste the CLAUDE.md file.
+
 
