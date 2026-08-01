@@ -25,5 +25,21 @@ Provide Context through CLAUDE.md and Rules:
   From the downloaded resources (C:\Users\arnol\Downloads\resources.zip\resources\project).
     Copy the CLAUDE.md
     In VS code, at the project level, create a folder named '.claude' and paste the CLAUDE.md file.
+  Create a new folder in VS Code under the .claude folder and name it rules.
+  From the downloaded resources (C:\Users\arnol\Downloads\resources.zip\resources\rules).
+    Copy api-design.md and testing.md
+    Paste them in rules folder in VS Code.
+  Check if claude understand our md files by asking the question below:
+    1. What annotation do we use for dependency injection?
+    2. What type do we use for money field?
+    3. What should the API error response look like according to standard conventions?
+  Every time we open a new session, claude will load all the rules present in our md files.
+  Each time an md file is updated, the session need to be restarted for the change to be picked up.
+  We placed our rules at the project level and inside the .claude folder. These are 2 different method.
+    In general, we should pick one. The convention is to have the rules at the project level.
+
+Auto Memory: Claude's Personal Notebook
+  
+
 
 
