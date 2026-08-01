@@ -44,5 +44,11 @@ Auto Memory: Claude's Personal Notebook
     What do you have in memory for this project?
   Claude doesn't save data by itself. We can manually ask it to store information.
 
-
-
+Git from Day 1:
+  Setup git before any Java code is written. Not at the end of the course.
+  Use claude to add our project to github with the name: 'my-java-app'
+  Prompt:
+    Review the existing .gitignore for ecommerce-api.
+    Make sure it covers everything that should be ignored for this project:
+    Spring Boot, Maven, MySQL, VS Code, and Claude Code.
+    Add anything missing. Show exactly what you added and why.
