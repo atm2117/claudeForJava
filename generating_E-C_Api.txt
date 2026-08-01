@@ -18,3 +18,17 @@ Prompt 1: Data Layer:
     - OrderItem subtotal is calculated automatically as unit price × quantity
     - Saving an order must cascade to its items and payment
   Verify that the repository and the application.yml got created with correct content.
+  Commit the code using claude or the terminal.
+
+Prompt2: Business Layer:
+  Generate the service and controller layers for ecommerce-api.
+    Three business rules to apply:
+    - Stock reduces when an order is placed, not at shipment
+    - Cancelling an order restores stock for all items;
+    if payment was completed, mark it REFUNDED
+    - Order status transitions are one-way:
+    PENDING → CONFIRMED or CANCELLED
+    CONFIRMED → PROCESSING or CANCELLED
+    PROCESSING → SHIPPED or CANCELLED
+    SHIPPED → DELIVERED
+    DELIVERED, CANCELLED, and REFUNDED are final
