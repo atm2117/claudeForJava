@@ -47,8 +47,36 @@ Auto Memory: Claude's Personal Notebook
 Git from Day 1:
   Setup git before any Java code is written. Not at the end of the course.
   Use claude to add our project to github with the name: 'my-java-app'
+    C:\Users\arnol\OneDrive\Documents\projects\claudeAI\my-java-app
   Prompt:
     Review the existing .gitignore for ecommerce-api.
     Make sure it covers everything that should be ignored for this project:
     Spring Boot, Maven, MySQL, VS Code, and Claude Code.
     Add anything missing. Show exactly what you added and why.
+
+MediTrack Assignment project walkthrough:
+  From the downloaded resources (C:\Users\arnol\Downloads\resources.zip\resources\Assignments).
+    Open the MediTrack_Prompt_Handbook.pdf file.
+    Open the meditrack=starter in a new VS Code window.
+    Copy the sql from meditrack_schema into MySql Workbench and run it.
+    Make sure to understand what the project is currently doing. We can use claude for a sample explanation.
+  Prompt:
+    Create a file explaining what the application is currently doing using bullet points.
+    The result has been save in APPLICATION_OVERVIEW.md
+
+Assignment: Project Conventions Using Init Command
+  In claude, generate the CLAUDE.md with the /init command
+  Tighten the generated CLAUDE.md using the prompt:
+    Update CLAUDE.md so it requires, for this project:
+      - constructor injection with final fields (never @Autowired)
+      - BigDecimal for money (never double)
+      - DTOs in and out of controllers (never expose JPA entities)
+      - thin controllers; all business logic in a service layer
+      - all endpoints under /api/v1
+      - centralised exception handling returning a consistent ErrorResponse JSON
+      - ddl-auto=validate (tables come from meditrack_schema.sql)
+  Ask few prompt question to claude:
+    1. What do we use for dependency injection?
+    2. What type do we use for money fields?
+
+Role Play: Convincing a Skeptical Senior Developer to Adopt CLAUDE.md
