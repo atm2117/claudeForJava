@@ -65,6 +65,7 @@ MediTrack Assignment project walkthrough:
     The result has been save in APPLICATION_OVERVIEW.md
 
 Assignment: Project Conventions Using Init Command
+  Project path: C:\Users\arnol\Downloads\resources\resources\Assignments\meditrack-starter\
   In claude, generate the CLAUDE.md with the /init command
   Tighten the generated CLAUDE.md using the prompt:
     Update CLAUDE.md so it requires, for this project:
