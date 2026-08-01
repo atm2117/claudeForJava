@@ -39,7 +39,10 @@ Provide Context through CLAUDE.md and Rules:
     In general, we should pick one. The convention is to have the rules at the project level.
 
 Auto Memory: Claude's Personal Notebook
-  
+  All the projects using claude can be found at this location: C:\Users\arnol\.claude\projects.
+  In vs code, ask the prompt below?
+    What do you have in memory for this project?
+  Claude doesn't save data by itself. We can manually ask it to store information.
 
 
 
