@@ -1,3 +1,20 @@
 Prompt 1: Data Layer:
   file: ECom_Prompt_Handbook.pdf
-  Project path: 
+  Project path: C:\Users\arnol\OneDrive\Documents\projects\claudeAI\my-java-app
+  Generate the data layer using the prompt below:
+    Generate the complete data layer for ecommerce-api. Read db/schema.sql first.
+    Application config:
+    - MySQL at localhost:3306/ecommerce_db, username root, password [update_with_real_password]
+    - ddl-auto=validate (tables already exist), SQL logging on
+    Three enums needed:
+    OrderStatus: PENDING, CONFIRMED, PROCESSING, SHIPPED, DELIVERED, CANCELLED,
+    REFUNDED
+    PaymentMethod: CREDIT_CARD, DEBIT_CARD, UPI, NET_BANKING, WALLET,
+    CASH_ON_DELIVERY
+    PaymentStatus: PENDING, COMPLETED, FAILED, REFUNDED
+    Two entity business rules:
+    - Order number is generated on save as 'ORD-' followed by 8 uppercase UUID
+    characters
+    - OrderItem subtotal is calculated automatically as unit price × quantity
+    - Saving an order must cascade to its items and payment
+  Verify that the repository and the application.yml got created with correct content.
