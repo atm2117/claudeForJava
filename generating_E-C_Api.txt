@@ -32,3 +32,4 @@ Prompt2: Business Layer:
     PROCESSING → SHIPPED or CANCELLED
     SHIPPED → DELIVERED
     DELIVERED, CANCELLED, and REFUNDED are final
+  Once it's done, use a prompt to 'run the app'.
