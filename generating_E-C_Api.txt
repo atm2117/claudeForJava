@@ -33,4 +33,22 @@ Prompt2: Business Layer:
     SHIPPED → DELIVERED
     DELIVERED, CANCELLED, and REFUNDED are final
   Once it's done, use a prompt to 'run the app'.
-  Test the prodocts endpoint: localhost:8080/api/v1/products
+  Test the products endpoint: localhost:8080/api/v1/products
+  Check the actuator: localhost:8080/actuator/health
+  Commit all the changes.
+
+Write and Run Unit Tests:
+  Prompts:
+    Generate unit tests for all four services.
+    Additional business scenarios to cover:
+      - Category create: duplicate name
+      - Product create: duplicate SKU
+      - Customer register: duplicate email
+      - Order placeOrder: customer not found, insufficient stock
+      - Order cancelOrder: already delivered, already cancelled
+    Verify that test were created and they are working.
+    Commit the code.
+
+Configure Swagger UI:
+  Prompt:
+    Add interactive Swagger UI to ecommerce-api using the latest springdoc-openapi dependency.
