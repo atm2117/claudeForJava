@@ -1,0 +1,12 @@
+Review the data Layer:
+  file: E_com_prompt
+  Prompt:
+    Review Order.java.
+      Explain to me:
+      1. How orderNumber is generated — walk through the @PrePersist method
+      2. Why @Getter @Setter instead of @Data on an entity
+      3. How CascadeType.ALL on OrderItems works when we call orderRepository.save()
+      4. Why FetchType.LAZY matters here and what problem EAGER would cause
+      5. Why @Enumerated(EnumType.STRING) is safer than ORDINAL
+
+Review the Business Layer:
