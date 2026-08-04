@@ -57,9 +57,16 @@ Configure Swagger UI:
   In java config folder:
     Check for OpenApiConfig.java
   Url: http://localhost:8080/swagger-ui.html
+  Api specs: http://localhost:8080/v3/api-docs 
   commit the changes
 
 Assignment 2: Unit Tests and Swagger UI
-  File:
-  Prompt 1:
+  File: MediTrack_Prompt_Handbook.pdf
+  Prompt to Generate Unit Test:
+    Generate unit tests for the service logic: mock the repositories and cover doctor not found, patient not found, and the booking and cancel paths. Add feedback cases later, as you build that feature.
+
+  Prompt to Generate Swagger UI:
+    Add interactive Swagger UI using the latest springdoc-openapi. Group the
+endpoints under Specialty, Doctor, Patient, and Appointment Management.
+  Start the application and check if the swagger endpoint is working properly.
     
