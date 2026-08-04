@@ -52,3 +52,14 @@ Write and Run Unit Tests:
 Configure Swagger UI:
   Prompt:
     Add interactive Swagger UI to ecommerce-api using the latest springdoc-openapi dependency.
+  In pom.xml
+    springdoc-openapi-starter-webmvc-ui
+  In java config folder:
+    Check for OpenApiConfig.java
+  Url: http://localhost:8080/swagger-ui.html
+  commit the changes
+
+Assignment 2: Unit Tests and Swagger UI
+  File:
+  Prompt 1:
+    
